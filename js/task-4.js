@@ -1,5 +1,5 @@
 'use strict';
-class Storage {
+class Sttorage {
   constructor(items) {
     this.items = items;
   }
@@ -20,11 +20,11 @@ class Storage {
   }
 }
 
-const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
-console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
+const sttorage = new Sttorage(['Nanitoids', 'Prolonger', 'Antigravitator']);
+console.log(sttorage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 
 storage.addItem('Droid');
-console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
+console.log(sttorage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 
 storage.removeItem('Prolonger');
-console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+console.log(sttorage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
