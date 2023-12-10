@@ -23,8 +23,8 @@ class Sttorage {
 const sttorage = new Sttorage(['Nanitoids', 'Prolonger', 'Antigravitator']);
 console.log(sttorage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
 
-storage.addItem('Droid');
+sttorage.addItem('Droid');
 console.log(sttorage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
 
-storage.removeItem('Prolonger');
+sttorage.removeItem('Prolonger');
 console.log(sttorage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
